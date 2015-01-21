@@ -1,0 +1,28 @@
+#include <iostream>
+#include <stack>
+#include <string>
+#include <vector>
+
+bool toys(vector<int> v, int i){
+  
+}
+
+int main(){
+  stack<int> s;
+  string n;
+  int n,inner_sum=0;
+  vector<int> v;
+  while(cin>>n){
+    for(int i=0;i<s.size();i++){
+      if(s[i]==' ')
+	i++;
+      if(s[i]=='-'){
+	i++;
+	n = -1 *(s[i]-'0');
+      }
+      else
+	n = s[i]- '0';
+      v.push_back(n);
+    }
+
+

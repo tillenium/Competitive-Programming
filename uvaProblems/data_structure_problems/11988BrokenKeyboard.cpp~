@@ -1,0 +1,11 @@
+#include <iostream>
+#include <string>
+#include <stack>
+
+int main(){
+  string text;
+  string output;
+  stack<char> s;
+  while(cin>>text){
+    output = "";
+

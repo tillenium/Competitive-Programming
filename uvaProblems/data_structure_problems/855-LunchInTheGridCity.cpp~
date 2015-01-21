@@ -1,0 +1,13 @@
+#include <iostream>
+#include <vector>
+
+using namespace std;
+
+int main(){
+  int t;cin>>t;
+  int s,a,f;
+  while(t--){
+    cin>>s>>a>>f;
+    vector<int> grid(f,0);
+    for(int i=0;i<s;i++)
+      for(int j=0;j<a;j++)
